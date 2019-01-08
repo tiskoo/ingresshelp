@@ -9,27 +9,4 @@ html, body {
           overflow-y: scroll;
           -webkit-overflow-scrolling: touch;
       }
-      .chat-wrapper {
-      	padding-left: 100px;
-        padding-right: 100px;
-        height: 100%;
-          overflow-y: scroll;
-          -webkit-overflow-scrolling: touch;
-      }
-
-      .resp-iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border: 0;
-}
-
-
-      .resp-container {
-        position: relative;
-        overflow: hidden;
-       
-}
-
+      
