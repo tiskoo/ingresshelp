@@ -16,11 +16,6 @@ html, body {
           overflow-y: scroll;
           -webkit-overflow-scrolling: touch;
       }
-      .resp-container {
-        position: relative;
-        overflow: hidden;
-       
-}
 
       .resp-iframe {
         position: absolute;
@@ -30,3 +25,11 @@ html, body {
         height: 100%;
         border: 0;
 }
+
+
+      .resp-container {
+        position: relative;
+        overflow: hidden;
+       
+}
+
