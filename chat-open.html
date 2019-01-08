@@ -14,15 +14,24 @@
   gtag('config', 'UA-66849654-1');
 </script>
 
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
 <script>
-    $(document).ready(function(){   
-    setTimeout(function () {
-        $("#cookieConsent").fadeIn(200);
-     }, 4000);
-    $("#closeCookieConsent, .cookieConsentOK").click(function() {
-        $("#cookieConsent").fadeOut(200);
-    }); 
-}); 
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#f1d600"
+    }
+  },
+  "content": {
+    "message": "We use cookies to give you the best possible user experience. Read our cookie policy here to &lt;a href=\"https://www.nianticlabs.com/cookies/\" class=\"cookie-notice__link\"&gt;learn more&lt;/a&gt; about our use of cookies and how to change your browser settings.",
+    "href": "https://www.nianticlabs.com/cookies/"
+  }
+})});
 </script>
 
 </head>
@@ -52,10 +61,5 @@
   !function(t,e){if("function"!=typeof window.Helpshift){var n=function(){n.q.push(arguments)};n.q=[],window.Helpshift=n;var i,a=t.getElementsByTagName("script")[0];if(t.getElementById(e))return;i=t.createElement("script"),i.async=!0,i.id=e,i.src="https://webchat.helpshift.com/webChat.js";var o=function(){window.Helpshift("init")};window.attachEvent?i.attachEvent("onload",o):i.addEventListener("load",o,!1),a.parentNode.insertBefore(i,a)}else window.Helpshift("update")}(document,"hs-chat");
   Helpshift("open");
 </script>
-    
-<div id="cookieConsent">
-    <div id="closeCookieConsent">x</div>
-    We use cookies to give you the best possible user experience. Read our cookie policy here to <a href="https://www.nianticlabs.com/cookies/" class="cookie-notice__link">learn more</a> about our use of cookies and how to change your browser settings.<a class="cookieConsentOK">OK</a>
-</div>
 </body>
 </html>
