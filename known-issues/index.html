@@ -4,6 +4,9 @@
   <title>Ingress Support</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="shortcut icon" type="image/png" href="https://ingress.com/assets/img/favicon-32x32.png"/>
+
+  <meta name="viewport" content="minimum-scale=1, maximum-scale=1, width=device-width">
+    
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-66849654-1"></script>
 <script>
@@ -14,6 +17,28 @@
   gtag('config', 'UA-66849654-1');
 </script>
 
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#5f54a2"
+    }
+  },
+  "theme": "classic",
+  "position": "bottom-left",
+  "content": {
+    "message": "We use cookies to give you the best possible user experience. Read our cookie policy to learn more about our use of cookies and how to change your browser settings.",
+    "href": "https://www.nianticlabs.com/cookies/"
+  }
+})});
+</script>    
+    
 </head>
 
 <body>
