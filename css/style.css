@@ -9,4 +9,10 @@ html, body {
           overflow-y: scroll;
           -webkit-overflow-scrolling: touch;
       }
-      
+      .chat-wrapper {
+      	padding-left: 100px;
+        padding-right: 100px;
+        height: 100%;
+          overflow-y: scroll;
+          -webkit-overflow-scrolling: touch;
+      }
